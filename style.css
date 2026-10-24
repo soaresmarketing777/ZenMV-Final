@@ -128,9 +128,9 @@ h1, h2, h3, h4 {
    ========================================================================== */
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
 .about-image img { width: 100%; border-radius: 12px; box-shadow: var(--shadow); }
-.services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+.services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10rem; }
 .service-card {
-    background: var(--color-bg); padding: 2rem; border-radius: 12px; box-shadow: var(--shadow);
+    background: var(--color-bg); padding: 3rem; border-radius: 12px; box-shadow: var(--shadow);
     border: 1px solid transparent; transition: var(--transition);
 }
 .service-card:hover { transform: translateY(-5px); border-color: var(--color-gold); }
